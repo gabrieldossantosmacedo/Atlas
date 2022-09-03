@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Kanit:ital,wght@1,300&display=swap');
+
+@font-face{
+    font-family: 'Avenida';
+    src: url('../fonte/AVENIDA.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root{
+    --cor0: #ffb6d2;
+    --cor1: #f75e99;
+    --cor2: #fc3678;
+    --cor3: #b3023d;
+    --cor5: #3b0226;
+    --cor6: #ff92bc; 
+    --cor7: #381b31;
+
+    --fonte-padrao: Times New Roman, Times, serif;
+    --fonte-destaque: 'Kanit', sans-serif;
+    --fonte-avenida: Avenida, cursive;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3),var(--cor5) );
+    min-height: 150px; /* é a configuração minima da altura */
+}
+header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em; /* tamnho da letra no H1 */
+    margin-bottom: 23px; /* é a margem de abixo do H1 */
+    text-shadow: -5px 5px 5px black;
+    padding-top: 30px;
+}
+
+header > p{
+    color: white;
+    font-family:var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 700px; /* determina e espalhar do texto e ajustar na quebra de linha do paragrafo */
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: auto; /* é acentralização do texto */
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 2px black;   
+}
+
+
+.center{
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.loading{
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(#c90e2d, rgb(163, 5, 202));
+    animation: anim 2s linear infinite;
+}
+.loading:before{
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(#f1097d, rgba(175, 13, 216, 0.363));
+    animation: anim 3s linear infinite;
+}
+.loading:after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    bottom: 20%;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(#f1097d, rgba(175, 13, 216, 0.363));
+    animation: anim 2s linear infinite;
+}
+
+@keyframes anim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 5px 8px black;
+}
+
+nav > a{
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold; /* deixa a fonte em negrito */
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+main{
+    background-color: white;
+    max-width: 1000px; /* largura maxima de vista da direita */
+    min-width: 300px;
+    margin: auto; /* margin centralizada */
+    margin-top:25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    color: var(--cor5);
+    font-family: var(--fonte-avenida);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+main h2{
+    color: var(--cor5);
+    font-family: var(--fonte-avenida);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right,  var(--cor2), transparent);
+    text-indent: 10px; /* Espaço para paragrafo */
+}
+
+main p{
+    margin: 15px 0px; /* 15px altera margem de cima 0px é a margem de baixo */
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em; /* espaçamento entre linhas */
+}
+
+main strong{
+    color: var(--cor5);
+    font-weight: bold;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor1);
+    background-color: var(--cor5);
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor6);
+}
+
+main img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block; /* o elemento se comporta como um bloco */
+    margin: auto;
+}
+
+.image{
+    background-color: var(--cor7);
+    margin: 0px -20px 30px -20px; /* determinou o posicionamento da caixa */
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+
+
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 20px black
+}
+
+aside > h3{
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px; /* configuração da caixa de cor */
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+}
+
+p.central{
+    text-align: center;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor0);
+}
+

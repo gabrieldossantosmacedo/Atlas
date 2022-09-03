@@ -1,0 +1,71 @@
+Nemesis
+
+A empresa de tecnologia volta ao mundo dos criptoativos
+
+[MENU]
+Home
+Categorias
+Contatos
+
+Sobre a Nemesis
+
+Nemesis é uam empresa brasileira de tecnologia e inovação. A companhia se concentra
+no mercado voltado ao e-commerce, possibilitando que outras empresas possam disponibilizar,
+de um software com mais segurança e interatividade. Utilizando
+os sistemas de IAs para o auxilio.
+
+[IMAGEM]
+
+A inteligência artificial ajudando na inovação do mercado.
+
+Curiosidades
+
+A empresa foi criada e desenvolvida pelos programadores Gabriel dos Santos e Edy Borges.
+Estes com a visão futuristica do mercado baseado na relação de criptoativos com inteligencias 
+artificiais, se comprometeram a criar uma empresa que possibilita-se que outras empresas pudessem usufruir de softwares
+com mais segurança e compatibilidade com o ramo desejado, auxilio por IAs.
+A sede da companhia esta localizada em Brasília no Distrito Federal, porem hoje com site e diferentes
+sistemas implementados pessoas ao redor do Brasil possuia acesso a este dominio de uma forma segura.
+
+[IMAGEM]
+
+Nemesis se tornou a primeira empresa de tecnologia em Brasília que possui a disponibilidades de conseguir
+fazer seus negocios por meio da compra, venda e troca de criptoativos.
+
+Sobre os Criadores
+
+Gabriel, estudante de tecnologia desde os 17 anos, se comprometeu a entrar no ramo de programação.
+Hoje como programador Full-Stack, desenvolvendo tanto em Front-End como em Back-End, participa como Fundador
+da empresa, ao lado Edy detendo 50%, este é resposavel pelo Desenvolvimento Web, Design e Layout da companhia.
+
+[IMAGEM]
+
+Edy, fundador e melhor amigo de Gabriel, teve seus estudos de tecnologia tambem com 17 anos de idade. Ajudando no desenvolvimento
+da Nemesis , ele é um programador Back-End, Desenvolvedor de Banco de Dados e Cientista na mesma area,
+retendo ao lado de Gabriel o50% da companhia.
+
+[IMAGEM]
+
+Saiba mais...
+
+Ao longo do projeto tivemos tecnologias iniciais e essencias para o desenvolvimento, estao listadas e enumeradas abaixo algumas delas:
+
+1.0 - Html
+2.0 - Css
+3.0 - Java Script
+4.0 - Php
+5.0 - Python
+6.0 - Sql
+
+Hoje a Nemesis ja possui amplo acesso em area, contruida com varios e novos tipos de tecnologias e sempre esta em costante evolução, pois sempre e abordado
+um conhecimento novo ao projeto. Por isso a empresa sempre prezará pela segunraça e evolução para garantir aos usuarios que entrem nela mais liberdade e flexibilidade 
+dentro de nosso site oficial.
+
+Está foi uma breve apresentação do site sobre a Nemesis uma empresa voltadao desenvolvimento tecnologico
+
+
+
+
+
+
+
